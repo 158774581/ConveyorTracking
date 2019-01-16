@@ -327,7 +327,7 @@ int16 PyramidOptimization(conveyor* cnv, conveyor_robot* rbt, robot_config_modul
 	p_block->pose.pose_end[5] = tool_pose[5];
 
 	//----------------------------------------------------------------------------
-
+	double test;
 	while (1)
 	{
 		calculate_motion_parameters(cfg, p_block);
